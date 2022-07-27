@@ -1,0 +1,41 @@
+.list {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  height: 70px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+.userLogo {
+  background-color: #10b981;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+.starPassword {
+  width: 100px;
+}
+.deleteLogo {
+  height: 20px;
+}
+.user {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+}
+.paraOfUser {
+  margin: 5px 0px;
+}
+.deleteBtn {
+  border-width: 0px;
+  background-color: transparent;
+  outline: none;
+}
